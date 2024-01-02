@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .contact {
+            background-color: rgba(255, 217, 184, 0.5);
+        }
+
+        input{
+            background-color: rgb(255, 232, 232)
+        }
+        legend{
+            font-weight: bold;
+        }
+    </style>
+    <title>Form</title>
+</head>
+<body>
+    <form action="" method="get">
+        <h1>Form For College Admission</h1>
+        <label for="Name">Name:
+            <input type="text" placeholder="Enter Name" name="Name" style="background-color:peachpuff ;">
+        </label>
+        <label for="last_name">Last Name:
+            <input type="text" placeholder="Enter Last Name" name="last_name" style="background-color:peachpuff;">
+        </label>
+        <label for="Email">Email:
+            <input type="email" placeholder="Enter Email" name="Email" style="background-color: peachpuff;">
+        </label> <br> <br>
+        
+        <fieldset class="address">
+            <legend>Address</legend>
+            <label for="residence">House/Flat:
+                <input type="text"  size="50" name="residence" >
+            </label>
+            <label for="city_state_country">City/state/Country: 
+                <input type="text" size="50" name="city_state_country">
+            </label>
+            
+        </fieldset> <br>
+        <fieldset class="contact">
+            <legend>Contact Details</legend>
+            <label for="phone">Phone no.: 
+                <input type="tel" name="phone">
+            </label>
+            <label for="email">Email:
+                <input type="email" name="email">
+            </label>
+        </fieldset>
+    </form>
+</body>
+</html>

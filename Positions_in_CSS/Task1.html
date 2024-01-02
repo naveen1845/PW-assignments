@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task1 Boxes</title>
+    <style>
+        .box{
+            height: 50px;
+            width: 50px;
+            background-color: cyan;
+            text-align: center;
+            border: 1px solid rgb(192, 191, 191);
+        }
+        .box1{
+            position: relative;
+            left: 200px;
+            top: 200px;
+        }
+        .box2{
+            position: absolute;
+            left: -30px;
+            top: -30px;
+        }
+        .box3{
+             position: absolute;
+             right: -30px;
+             top: -30px;
+        }
+        .box4{
+            position: absolute;
+            left: -30px;
+            bottom: -30px;
+        }
+        .box5{
+            position: absolute;
+            right: -30px;
+            bottom: -30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box box1">
+        A
+        <div class="box box2">B</div>
+        <div class="box box3">C</div>
+        <div class="box box4">D</div>
+        <div class="box box5">E</div>
+    </div>
+
+</body>
+</html>

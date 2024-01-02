@@ -1,0 +1,1 @@
+The inline css takes the highest precedence. If there is no inline css then the internal css comes into play. And of there is a conflict between internal and external css, then the css defined later in the file will be taken into consideration.

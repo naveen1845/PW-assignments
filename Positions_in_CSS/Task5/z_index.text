@@ -1,0 +1,3 @@
+The z-index is a CSS property that controls the stacking order of positioned elements on a webpage along the z-axis. In a three-dimensional space where the x-axis represents horizontal, the y-axis vertical, and the z-axis depth, the z-index determines the order in which elements overlap. Elements with a higher z-index value appear in front of those with lower values.
+
+Higher z-index values bring elements closer to the viewer, creating a sense of layering. This property is particularly useful when dealing with positioned or floated elements, enabling precise control over their visual hierarchy. Understanding and managing the z-index is crucial in preventing unintended overlaps and ensuring the correct rendering of elements in a web page layout.

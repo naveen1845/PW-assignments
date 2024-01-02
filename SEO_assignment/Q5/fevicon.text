@@ -1,0 +1,5 @@
+A favicon, short for "favorite icon," is a small, square image or icon associated with a website. It is typically displayed in the browser's address bar, next to the website's name in bookmarks, and in browser tabs.The primary purpose of a favicon is to provide a visual representation of a website or webpage, making it easier for users to identify and distinguish between different sites when they have multiple tabs open. Favicon images are a part of a website's branding and contribute to a cohesive and recognizable online identity. Web developers include a reference to the favicon in the HTML code of the webpage using the <link> tag in the <head> section.
+
+
+
+
