@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 5</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        header, footer{
+            padding: 10px;
+            background-color: rgb(54, 54, 54);
+            color: white;
+            text-align: center;
+        }
+
+        .container{
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+
+
+        }
+
+        .top{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            padding: 10px;
+            background-color:rgb(54, 175, 116);
+            color: aliceblue;
+        }
+        
+        .bottom{
+             display: flex;
+             justify-content: center;
+             align-items: center;
+            padding: 10px;
+            background-color: rgb(255, 114, 54) ;
+            color: aliceblue;
+        }
+
+        .main{
+
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+
+        }
+
+        @media (min-width: 650px) {
+            .container{
+                flex-direction: row;
+            }
+
+            .top, .bottom{
+                flex: 1;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>Box 1</header>
+        <div class="main">
+            <div class="top">Box 2</div>
+            <div class="bottom">Box 3</div>
+        </div>
+        <footer>Box 4</footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,8 @@
+Descriptive Text and Alt Attributes:
+Ensure images have descriptive text using the alt attribute. Screen readers rely on this text to convey the content of images, benefiting users with visual impairments who may not see the images.
+
+Keyboard Navigation:
+Make all interactive elements accessible via keyboard navigation. This is essential for users who cannot use a mouse. Ensure that the tab order is logical, and provide visible focus styles to indicate the currently focused element.
+
+Contrast and Color Choices:
+Maintain sufficient color contrast between text and background to enhance readability. This is crucial for users with low vision or color blindness. Avoid using color alone to convey information; include other visual cues or text labels.

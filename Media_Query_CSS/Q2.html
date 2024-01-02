@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive image galery</title>
+    <style>
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+
+        .container img{
+            box-sizing: border-box;
+            width: 33.33%;
+            border-radius: 10px;
+            border: 1px solid black;
+        }
+
+        @media (max-width: 800px){
+            .container img{
+                width: 50%;
+            }
+        }
+        @media (max-width: 500px){
+            .container img{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="./assets/919-200x300.jpg" alt="">
+        <img src="./assets/919-200x300.jpg" alt="">
+        <img src="./assets/919-200x300.jpg" alt="">
+    </div>
+</body>
+</html>
