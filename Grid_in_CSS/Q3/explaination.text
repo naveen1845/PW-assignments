@@ -1,5 +1,0 @@
-grid-auto-row: It defines the size of implicitly created rows in a CSS grid layout. When grid items are placed in rows beyond the explicitly defined rows, grid-auto-row determines the size of these automatically generated rows.
-
-grid-auto-column: Similarly, it defines the size of implicitly created columns in a CSS grid layout. When grid items are placed in columns beyond the explicitly defined columns, grid-auto-column determines the size of these automatically generated columns.
-
-In short, these properties help specify the size of rows and columns that are created automatically to accommodate grid items that do not fit within the explicitly defined grid structure.
