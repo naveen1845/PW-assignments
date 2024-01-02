@@ -1,0 +1,9 @@
+Tag:
+A tag is a keyword enclosed in angle brackets used to define an element in HTML. Tags are paired (opening and closing) and structure the content on a webpage.
+
+Eg. <p> </p>  <--- this is a paragraph tag
+
+Element:
+An element is a combination of opening and closing tags, along with the content between them. It represents a distinct part of a webpage and is the basic building block of HTML.
+
+Eg. <p> hello how are you ?? </p>  <--- this is a paragraph element

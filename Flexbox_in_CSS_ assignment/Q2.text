@@ -1,0 +1,23 @@
+1) justify-content:
+
+Values: flex-start, flex-end, center, space-between, space-around, or space-evenly
+Role: Aligns flex items along the main axis of the container. It controls the distribution of space between and around items.
+
+2)align-items:
+
+Values: flex-start, flex-end, center, baseline, or stretch
+Role: Aligns flex items along the cross axis of the container. It defines how items are aligned vertically (for a row direction) or horizontally (for a column direction).
+
+3) gap
+
+The gap property is used in the context of CSS Grid and CSS Flexbox layouts to define the spacing between grid items or flex items, respectively. It simplifies the process of adding space between adjacent items without having to use margin or padding on individual items
+
+4) flex-direction:
+
+Values: row, row-reverse, column, or column-reverse
+Role: Defines the main axis of the flex container. It determines the direction in which the flex items are placed inside the container.
+
+5) flex-wrap:
+
+Values: nowrap, wrap, or wrap-reverse
+Role: Specifies whether the flex container should wrap its items onto multiple lines. It controls how the items flow when there's not enough space along the main axis.

@@ -1,0 +1,2 @@
+
+A DOCTYPE declaration in HTML is a statement placed at the beginning of a document to specify its version and ensure proper rendering by web browsers. In HTML5, it is simplified to <!DOCTYPE html>, signaling adherence to the HTML5 specification. The DOCTYPE helps browsers interpret the document correctly and render it consistently across different platforms.

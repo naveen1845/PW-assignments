@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pink galery</title>
+    <style>
+        .page{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container{
+            display: grid;
+            grid-template-areas: 
+            "A A B"
+            "C D B";
+            grid-template-columns: 300px 300px 300px;
+            grid-template-rows: 300px 300px;
+            gap: 10px;
+        }
+        .A
+        {
+            grid-area: A;
+            background-color: papayawhip;
+            border: 1px solid pink;
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+    }
+        .B
+        {
+            grid-area: B;
+            border-radius: 20px;
+            background-color: papayawhip;
+            border: 1px solid pink;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+        }
+        .C
+        {
+            grid-area: C;
+            border-radius: 20px;
+            background-color: papayawhip;
+            border: 1px solid pink;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+        }
+        .D
+        {
+            grid-area: D;
+            border-radius: 20px;
+            background-color: papayawhip;
+            border: 1px solid pink;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+    <div class="container">
+    <div class="A">A</div>
+    <div class="B">B</div>
+    <div class="C">C</div>
+    <div class="D">D</div>
+    </div>
+</div>   
+</body>
+</html>

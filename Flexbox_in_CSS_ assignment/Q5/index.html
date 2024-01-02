@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>IRCTC Home Page clone</title>
+    <style>
+        .home{
+            height: 1100px;
+            width: 1460px;
+            border: 1px solid grey;
+
+        }
+
+       .img{
+        float: right;
+       }
+
+       .logo img{
+        width: 168.306px;
+        height: 81.111px;
+        position: absolute;
+        left: 101.39px;
+        top: 50.69px;
+       }
+
+       .menu{
+        display: flex;
+        flex-direction: column;
+        width: 330.806px;
+        height: 68.875px;
+        gap: 9px;
+        position: absolute;
+        left: 380.46px;
+        top: 63.69px;
+        
+       }
+        
+       .frame5{
+        display: flex;
+        gap: 25.347px;
+       }
+
+       .frame5-content{
+        font-family: 'Inter', sans-serif;
+        font-size: 15.208px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+       }
+
+       .frame6{
+        display: inline-flex;
+        gap: 20.278px;
+       }
+        
+       .btn{
+        padding: 10.139px 15.208px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5.069px;
+        background-color: white;
+        border: 0.1px solid rgb(207, 207, 207);
+
+        font-family: 'Inter', sans-serif;
+        font-size: 15.208px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+       } 
+
+       .btn-login{
+        background-color: #FB792B;
+        color: white;
+        border: 1px solid #FB792B;
+       }
+
+       .header-title{
+        display: flex;
+        flex-direction: column;
+        gap: 20.08px;
+        width: 438px;
+        height: 118.083px;
+        position: absolute;
+        left: 101.39px;
+        top:  223.06px;
+       }
+       
+       .header{
+        font-family: 'Inter', sans-serif ;
+        font-size: 48.667px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+       } 
+
+       .sub-header{
+        font-family: 'Inter', sans-serif ;
+        font-size: 32.444px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+       }
+
+       .sub1{
+        color: #01BB0A;
+       }
+       .sub2{
+        color: #FB792B;
+       }
+       .sub3{
+        color: #213D77;
+       }
+      
+       .sub-notion{
+        display: flex;
+        position: absolute;
+        left: 101.39px;
+        top: 422.79px;
+        gap: 20.28px;
+       }
+
+       .sub-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10.139px 15.208px;
+        gap: 10.14px;
+
+        font-family: 'Inter', sans-serif;
+        font-size: 18.25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        background-color: white;
+        border: 1px solid grey;
+        border-radius: 8px;
+       }
+
+       .book{
+        background-color: #213D77;
+        color: white;
+        border: 1px solid #213D77;
+       }
+
+       .search-train, .train{
+        width: 618.472px;
+        height: 116.597px;
+        position: absolute;
+        left: 101.39px;
+        top: 518.1px;
+        display: flex;
+        justify-content: space-around;
+        border-radius: 10.139px;
+        border: 1.014px solid rgba(51, 51, 51, 0.10);
+
+
+       }
+       
+       .from-main, .to-main, .date, .coach, .type{
+        width: 177px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+       }
+       .from-logo, .to-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+       .from, .from-subname, .to, .to-subname{
+        display: flex;
+        align-items: center;
+       
+        color: #333333;
+        font-family:  'Inter', sans-serif;
+        font-size: 15.208px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        opacity: 0.8;
+       }
+       .from-name, .to-name{
+        display: flex;
+        font-family: 'Inter', sans-serif;
+        font-size: 25.347px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: capitalize;
+        margin-bottom: 5px;
+       }
+
+       .center-logo{
+        display: flex;
+        align-items: center;
+       }
+       .train{
+        position: absolute;
+        top: 654.97px;
+       }
+       .coach{
+        width: 118px;
+       }
+       .btn-searchtrain{
+        width: 618.472px;
+        height: 81.111px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        background-color: #01BB0A;
+        border: 1px solid #01BB0A;
+        border-radius: 7.5px;
+        position: absolute;
+        top: 828.56px;
+        left: 101.39px;
+
+
+        color: #FFF;
+        font-family: 'Inter';
+        text-align: center;
+        font-family: Inter;
+        font-size: 25.347px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+       }
+    </style>
+</head>
+
+<body>
+    <div class="page"></div>
+    <div class="home">
+        <img class="img" src="./assets/Rectangle 11.svg" alt="">
+        <div class="logo">
+            <img src="./assets/Logo.svg" alt="">
+        </div>
+
+        <div class="menu">
+            <div class="frame5">
+                <div class="frame5-content">Ask Disha</div>
+                <div class="frame5-content">Contact Us</div>
+                <div class="frame5-content">Alerts</div>
+            </div>
+            <div class="frame6">
+                <div><button class="btn btn-login">Login</div></button>
+                <div><button class="btn">Register</div></button>
+                <div><button class="btn">Agent Login</div></button>
+            </div>
+        </div>
+
+        <div class="header-title">
+            <div class="header">Indian Railways</div>
+            <div class="sub-header"><span class="sub1">Safety &nbsp;</span><span class="sub2">Security &nbsp;</span><span class="sub3">Punctuality &nbsp;</span></div>
+        </div>
+
+        <div class="sub-notion">
+            <div><button class="sub-btn book"><img src="./assets/confirmation_number_FILL0_wght400_GRAD0_opsz48 1.svg" alt="">Book Tickets</button></div>
+
+            <div><button class="sub-btn"><img src="./assets/tick.svg" alt="">PNR Status</button></div>
+
+            <div><button class="sub-btn"><img src="./assets/charts.svg" alt=""><span>Charts / Vaccancy</span></button></div>
+        </div>
+
+        <div class="search-train">
+            <div class="from-main">
+                <div class="from-logo">
+                    <img src="./assets/from.svg" alt="">
+                </div>
+                <div class="from-details">
+                    <div class="from">From <img src="./assets/expand_more_FILL0_wght400_GRAD0_opsz48 1.svg" alt=""></div>
+                    <div class="from-name">Bangalore</div>
+                    <div class="from-subname">KSR - Bangalore</div>
+                </div>
+            </div>
+
+            <div class="center-logo">
+                <img src="./assets/sync.svg" alt="">
+            </div>
+
+            <div class="to-main">
+                <div class="to-logo">
+                    <img src="./assets/to.svg" alt="">
+                </div>
+                <div class="to-details">
+                    <div class="to">To <img src="./assets/expand_more_FILL0_wght400_GRAD0_opsz48 1.svg" alt=""></div>
+                    <div class="to-name">Kasaragod</div>
+                    <div class="to-subname">KSD - Kasaragod</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="train">
+            <div class="date">
+                <div class="from-logo">
+                    <img src="./assets/ic-search-calender-desktop.svg" alt="">
+                </div>
+                <div class="from-details">
+                    <div class="from">Date <img src="./assets/expand_more_FILL0_wght400_GRAD0_opsz48 1.svg" alt=""></div>
+                    <div class="from-name">01 AUG 23</div>
+                    <div class="from-subname">Tuesday</div>
+                </div>
+            </div>
+
+            <div class="coach">
+                <div class="from-logo">
+                    <img src="./assets/group_work_FILL0_wght200_GRAD0_opsz48 1.svg" alt="">
+                </div>
+                <div class="from-details">
+                    <div class="from">Class <img src="./assets/expand_more_FILL0_wght400_GRAD0_opsz48 1.svg" alt=""></div>
+                    <div class="from-name">3A</div>
+                    <div class="from-subname">AC 3 Tier</div>
+                </div>
+            </div>
+
+            <div class="type">
+                <div class="from-logo">
+                    <img src="./assets/widgets_FILL0_wght200_GRAD0_opsz48 1.svg" alt="">
+                </div>
+                <div class="from-details">
+                    <div class="from">Seat Type <img src="./assets/expand_more_FILL0_wght400_GRAD0_opsz48 1.svg" alt=""></div>
+                    <div class="from-name">TATKAL</div>
+                    <div class="from-subname">AC 3 Tier</div>
+                </div>
+            </div>
+        </div>
+        
+         <button class="btn-searchtrain">Search Train <img src="./assets/arrow_forward_FILL0_wght400_GRAD0_opsz48 1.svg" alt=""></button>
+        
+    </div>
+</div>
+</body>
+</html>

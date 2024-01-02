@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid auto row property</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: 200px 200px 200px;
+            grid-template-rows: 200px;
+            grid-auto-rows: 300px;
+            gap: 10px;
+        }
+        .container div{
+            border: 1px solid orangered;
+            background-color: cornsilk;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family:Arial, Helvetica, sans-serif;
+            color: red;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+   <div class="container">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    <div>7</div>
+
+   </div> 
+</body>
+</html>
