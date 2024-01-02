@@ -1,0 +1,39 @@
+a {
+    color: red;
+}
+
+nav > h2{
+    background-color: burlywood;
+}
+
+div + p{
+    color: red;
+}
+
+a[href="#"]{
+    color: red;
+    text-decoration: none;
+}
+
+a[class="active"]{
+    color:rgb(51, 0, 255);
+    text-decoration: underline;
+    font-style: oblique;
+}
+
+a[target="_self"]{
+    background-color: pink;
+}
+
+p:last-child::after{
+    content: "...";
+}
+
+li::marker{
+    color: gold;
+}
+
+p:nth-of-type(2)::first-letter{
+    color: green;
+    font-size: 1.5rem;
+}
