@@ -1,0 +1,1 @@
+The purpose of using CSS variables is to make your styles more maintainable and flexible. If you need to change a color or any other value that is used in multiple places, you can update the variable at a single point in your stylesheet, and the change will be reflected throughout the document. This makes it easier to manage and update your styles, especially in larger projects.
