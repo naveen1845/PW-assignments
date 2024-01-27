@@ -1,0 +1,3 @@
+Purpose of Declaring Variables:nStore and represent data, enabling dynamic programming.
+
+Declaring Variables with 'let': Use let keyword (e.g., let age = 25;).

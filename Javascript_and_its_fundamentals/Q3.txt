@@ -1,0 +1,5 @@
+String: Represents Text data.
+Number: Represents Numeric values.
+Boolean: Represents True or false values.
+Undefined: Represents Variable with no assigned value.
+Null: Represents intentional absence of a value.

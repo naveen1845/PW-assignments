@@ -1,0 +1,13 @@
+JavaScript:
+Role: A scripting language that adds interactivity and dynamic behavior to web pages.
+Example Usage:
+Handling user interactions (e.g., clicks, input).
+Validating and processing user input.
+Dynamically updating content without requiring a page reload.
+
+HTML:
+Role: Markup language for structuring content on the web.
+Example Usage:
+Defining the structure of a webpage (headings, paragraphs, lists).
+Embedding multimedia (images, videos).
+Creating forms for user input.
