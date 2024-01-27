@@ -1,0 +1,5 @@
+Precedence and Associativity:
+Precedence: Determines the order of operator evaluation (higher precedence first).
+Associativity: Specifies the order for operators of the same precedence (left-to-right or right-to-left).
+Importance: Ensures correct expression evaluation, readability, and aids debugging.
+Example: (3 + 5) * 2 ensures addition is performed first.

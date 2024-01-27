@@ -1,0 +1,4 @@
+Role of Operators in JavaScript:
+Operators perform actions on variables and values.
+Essential for performing computations, comparisons, and manipulations.
+Enable building complex expressions to achieve desired functionality.

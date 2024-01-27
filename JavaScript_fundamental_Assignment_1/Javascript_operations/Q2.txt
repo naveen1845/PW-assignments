@@ -1,0 +1,23 @@
+Categorization of Operators in JavaScript:
+Arithmetic Operators:
+Perform mathematical operations.
+Example: +, -, *, /, % (addition, subtraction, multiplication, division, modulus).
+Comparison Operators:
+Compare values and return a Boolean result.
+Example: ==, ===, !=, !==, >, <, >=, <= (equal, strict equal, not equal, strict not equal, greater than, less than, greater than or equal, less than or equal).
+Logical Operators:
+Combine or manipulate Boolean values.
+Example: && (and), || (or), ! (not).
+Assignment Operators:
+Assign values to variables.
+Example: =, +=, -=, *=, /= (assignment, addition assignment, subtraction assignment, multiplication assignment, division assignment).
+Unary Operators:
+Operate on a single operand.
+Example: ++, -- (increment, decrement).
+Conditional (Ternary) Operator:
+Provides a concise way to write conditional statements.
+Example: condition ? expr1 : expr2.
+Bitwise Operators:
+Perform bitwise operations on integers.
+Example: &, |, ^, ~, <<, >>, >>> (bitwise AND, OR, XOR, NOT, left shift, right shift, unsigned right shift).
+These categories cover the diverse functionality of operators in JavaScript.

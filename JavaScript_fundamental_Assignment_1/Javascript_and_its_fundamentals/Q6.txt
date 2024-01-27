@@ -1,0 +1,10 @@
+Importance of Meaningful Variable Names:
+1) Enhances code readability and maintainability.
+2) Improves understanding of variable purpose and usage.
+3) Facilitates collaboration and reduces the chance of errors.
+
+// Unclear variable name
+let x = 10;
+
+// Clear, descriptive variable name
+let numberOfItems = 10;

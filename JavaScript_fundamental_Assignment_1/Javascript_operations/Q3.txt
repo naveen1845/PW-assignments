@@ -1,0 +1,18 @@
+Unary Operators: Operate on one operand (e.g., ++, --, -).
+let x = 5;
+let y = -x; // Unary minus (changes the sign of x)
+let z = ++x; // Increment (adds 1 to x)
+
+
+
+Binary Operators: Operate on two operands (e.g., +, -, *).
+let a = 7;
+let b = 3;
+let sum = a + b; // Addition
+let product = a * b; // Multiplication
+
+
+
+Ternary Operator: Takes three operands and is a shorthand for if-else (e.g., condition ? expr1 : expr2).
+let age = 20;
+let status = (age >= 18) ? "Adult" : "Minor";
